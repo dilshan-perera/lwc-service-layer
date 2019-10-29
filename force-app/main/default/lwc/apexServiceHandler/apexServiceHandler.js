@@ -12,7 +12,7 @@ export default class ApexServiceHandler {
                 })
                 .catch(error => {
                     reject(error);
-                    //TODO handle error notification
+                    //handle error notification
                 });
         });
     }
