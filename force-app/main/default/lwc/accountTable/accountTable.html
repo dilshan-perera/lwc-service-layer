@@ -1,4 +1,5 @@
 <template>
-    <lightning-datatable columns={columns} data={accounts}></lightning-datatable>
+    <lightning-datatable key-field="Id" columns={columns} data={accounts}></lightning-datatable>
+    
     <c-account-data-service></c-account-data-service>
 </template>

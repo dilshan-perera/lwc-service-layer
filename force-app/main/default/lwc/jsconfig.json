@@ -3,11 +3,11 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/accountTable": [
-                "accountTable/accountTable.js"
-            ],
             "c/accountDataService": [
                 "accountDataService/accountDataService.js"
+            ],
+            "c/accountTable": [
+                "accountTable/accountTable.js"
             ],
             "c/apexServiceHandler": [
                 "apexServiceHandler/apexServiceHandler.js"
